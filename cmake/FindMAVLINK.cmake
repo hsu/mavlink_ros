@@ -2,8 +2,8 @@ INCLUDE(FindPackageHandleStandardArgs)
 INCLUDE(HandleLibraryTypes)
 
 SET(MAVLINK_IncludeSearchPaths
-  ${CMAKE_SOURCE_DIR}/include/mavlink/v1.0/common
-  ${CMAKE_SOURCE_DIR}/include/mavlink/v1.0
+  ${PROJECT_SOURCE_DIR}/include/mavlink/v1.0/common
+  ${PROJECT_SOURCE_DIR}/include/mavlink/v1.0
   )
 
 FIND_PATH(MAVLINK_INCLUDE_DIR
